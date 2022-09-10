@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:ital,wght@0,400;1,200;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  font-size: 33px;
+  line-height: 1.6;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+  width: 300px;
+  height: 200vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(161, 155, 155)
+}
+
+.sidebar nav {
+  padding: 70px;
+}
+
+.sidebar nav li {
+    color: rgb(35, 32, 32);
+ text-decoration: none;
+    list-style: none;
+  font-size: 40px;
+}
+
+.main {
+/*  background-color: yellow; */
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+}
+
+.infoContainer{
+   /*background-color: greenyellow;*/ 
+    height: 50vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.devPic img{
+    height: 23vw;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size:50px ;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+    
+}
+
+.buttons{
+    
+}
+.buttons button{
+    margin: 34px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.moreabout{
+    margin: top 23px; ;
+    font-size: 20px;
+    font-family: 'source code pro', monospace;
+}
+
+.contactform{
+
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 150px;
+    padding: 0 34px;
+}
+
+.contactform h2{
+
+    font-family: 'source code pro', monospace;
+    text-align: center;
+}
+
